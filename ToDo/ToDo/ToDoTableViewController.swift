@@ -35,9 +35,7 @@ class ToDoTableViewController: UITableViewController {
     }
     
     func refresh() {
-        print(self.times)
-        print(self.checks)
-        print(self.todos)
+
         var itemsToRemove: [Int] = []
         for i in 0..<(self.todos.count) {
             print(i)
